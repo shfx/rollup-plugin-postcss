@@ -10,7 +10,7 @@
     "test": "npm run lint && jest",
     "test:cov": "npm run lint && jest --coverage",
     "build": "bili",
-    "install": "npm build",
+    "install": "npm run build",
     "lint": "xo",
     "prepublishOnly": "npm run build"
   },
